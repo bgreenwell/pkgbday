@@ -15,8 +15,6 @@
 #' @examples
 #' pkg_bday("rpart")
 pkg_bday <- function(package, ...) {
-  # FIXME: Which way is better?
-
   # @param repos Character string(s) specifying the URL(s) of the repositories to
   # search. Default is \code{getOption("repos")}.
   # info <- pkg.info(package, repos)
