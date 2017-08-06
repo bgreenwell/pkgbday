@@ -1,0 +1,19 @@
+Package: pkgbday
+Type: Package
+Title: Birthday and Ages of Installed R Packages
+Version: 0.1.0
+Authors@R: person("Brandon", "Greenwell", email = "greenwell.brandon@gmail.com",
+  role = c("aut", "cre"))
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    plyr,
+    rvest,
+    stats,
+    stringi,
+    utils,
+    xml2
+RoxygenNote: 6.0.1
